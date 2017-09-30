@@ -1,0 +1,40 @@
+Table: tblmensagem
+Columns:
+idmensagem int(11) AI PK 
+nome varchar(45) 
+telefone varchar(45) 
+celular varchar(45) 
+email varchar(45) 
+homepage varchar(45) 
+facebook varchar(45) 
+sexo varchar(1) 
+mensagem text
+
+
+Table: tbl_login
+Columns:
+idUsuario int(11) AI PK 
+nome varchar(45) 
+login varchar(45) 
+senha varchar(45)
+
+
+table:tbl_lanche
+Columns:
+idLanche int(11) AI PK 
+apresentacaoLanche varchar(100) 
+fotoLanche varchar(100) 
+nomeLanche varchar(45) 
+valor varchar(45) 
+codigoLanche varchar(45) 
+calorias varchar(45) 
+proteinas varchar(45) 
+carboidratos varchar(45) 
+gorduras varchar(45) 
+gordurasSaturadas varchar(45) 
+gordurasTrans varchar(45) 
+acucar varchar(45) 
+colesterol varchar(45) 
+sodio varchar(45) 
+descricao text
+	
